@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 /* General Styles */
 *
@@ -17,7 +18,7 @@ body
     min-height: 100vh;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #EFEEE5;
+    background-color: #FFFFFF;
    
     
 }
@@ -28,15 +29,21 @@ a{
 }
 
 hr{
-    color: #7510F7;
-    height: 5px;
+    background-color: #EDF0F4;
+    height: 2px;
+    border: none;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /* Navigation Styles */
 #nav
 {
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0.4);
     min-height: 90px;
     min-width: 100%;
     position: fixed;
@@ -157,7 +164,7 @@ ul a li
 .header-content
 {
     position: relative;
-    top: 30%;
+    top: 35%;
     text-align: center;
     font-size: 2rem;
     min-height:  500px;
@@ -173,7 +180,8 @@ ul a li
     border-radius: 10px;
     width: 40%;
     margin: auto;
-    background: #EFEEE5;
+    background: #FFFFFF;
+    
 }
 
 .header-content p{
@@ -275,7 +283,7 @@ ul a li
 .intro
 {
     position: relative;
-    padding: 15rem .2rem;
+    padding: 12rem .2rem;
     text-align: center;
     color: white;
     font-size: 2rem;
@@ -292,7 +300,7 @@ ul a li
 
 #skills-section
 {
-    max-width: 50%;
+    max-width: 70%;
     min-height: 100%;
     margin: 0 auto;
     border: none;
@@ -302,11 +310,11 @@ ul a li
     margin-bottom: 1rem;
     position: relative;
     top: -90px;
-    background-color: #EFEEE5;
+    background-color: #FFFFFF;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
-    background-color: #EFEEE5;
+    background-color: #FFFFFF;
     color: black;
     text-align: center;
 
@@ -335,7 +343,7 @@ ul a li
 
 #project-section
 {
-    max-width: 50%;
+    max-width: 70%;
     min-height: 100%;
     margin: 0 auto;
     border: none;
@@ -346,7 +354,7 @@ ul a li
     margin-bottom: 1rem;
     position: relative;
     top: -35px;
-    background-color: #EFEEE5;
+    background-color: #FFFFFF;
     padding: 3rem;
     z-index: 2;
 
@@ -391,7 +399,7 @@ ul a li
 .project-button
 {
     background: #7510F7;
-    color:  #EFEEE5;
+    color:  #FFFFFF;
     padding: 1rem 2rem;
     border: none;
     border-radius: 6px;
@@ -399,7 +407,7 @@ ul a li
 
 .project-button:hover
 {
-    background:  #EFEEE5;
+    background:  #FFFFFF;
     color:  #7510F7;
     
     border: 1px solid  #7510F7;
@@ -426,7 +434,7 @@ ul a li
 
 .about-button
 {
-    background: #EFEEE5;
+    background: #FFFFFF;
     color: #7510F7;
     padding: 2rem;
     
@@ -451,6 +459,176 @@ ul a li
     top: 40%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+
+
+@media only screen and (max-width: 1582px)
+{
+    .header-content h1
+    {
+        width: 45%;
+        
+    }
+}
+
+@media only screen and (max-width: 1393px)
+{
+    .header-content h1
+    {
+        width: 50%;
+        
+    }
+    #project-section
+    {
+        max-width: 85%;
+    }
+    #skills-section
+    {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1238px)
+{
+    .header-content h1
+    {
+        width: 55%;
+        
+    }
+}
+
+
+@media only screen and (max-width: 1187px)
+{
+    .header-content h1
+    {
+        width: 60%;
+        
+    }
+    #project-section
+    {
+        max-width: 90%;
+    }
+    #skills-section
+    {
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 1138px)
+{
+    .header-content h1
+    {
+        width: 60%;
+        
+    }
+}
+
+@media only screen and (max-width: 1077px)
+{
+    .header-content h1
+    {
+        width: 60%;
+        
+    }
+    #project-section
+    {
+        max-width: 95%;
+    }
+    #skills-section
+    {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1043px)
+{
+    .header-content h1
+    {
+        width: 60%;
+        
+    }
+    #project-section
+    {
+        max-width: 95%;
+    }
+    #skills-section
+    {
+        max-width: 95%;
+    }
+    .intro-origin
+    {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 1038px)
+{
+    .header-content h1
+    {
+        width: 65%;
+        
+    }
+    .project
+    {
+        grid-template-columns: 1fr;
+    }
+    #skills-section
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 937px)
+{
+    .intro-origin
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 953px)
+{
+    .header-content h1
+    {
+        width: 75%;
+        
+    }
+}
+
+@media only screen and (max-width: 853px)
+{
+    .header-content h1
+    {
+        width: 85%;
+        
+    }
+}
+
+@media only screen and (max-width: 753px)
+{
+    .header-content h1
+    {
+        width: 80%;
+        font-size: 3rem;
+
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -469,6 +647,10 @@ ul a li
     .header-content h1{
         width: 90%;
         font-size: 3rem;
+    }
+    #description
+    {
+        font-size: 1.6rem;
     }
 
 
@@ -495,6 +677,9 @@ ul a li
     {
         max-width: 100%;
         grid-template-columns: 1fr;
+    }
+    .intro-origin{
+        padding: 2rem;
     }
     
 

@@ -18,6 +18,15 @@ btn.addEventListener('click', ()=>{
 
 // Auto-write text for header functionality
 
+const header = 'HI IM ROMAN!';
+let index1 = 0;
+function writeHeader()
+{
+  document.getElementById('header-text').innerText = header.slice(0, index1);
+  index1++;
+}
+setInterval(writeHeader, 75);
+
 const description = 'Developer .      Designer .       Creator                ';
 let index = 0;
 function writeDescription()
@@ -27,10 +36,9 @@ function writeDescription()
     
 }
 
-
-setInterval(writeDescription, 50);
-
-
+setTimeout(()=>{
+  setInterval(writeDescription, 50);
+}, 1300)
 
 // Added smooth scroll to top functionality 
 
