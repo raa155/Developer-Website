@@ -29,8 +29,12 @@
 .success-content
 {
     position: relative;
-    text-align: center;
+    margin: 0 auto;
     top: 25%;
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+    border: 4px solid white;
    
  
 }
@@ -68,4 +72,33 @@
 .success-icon
 {
     font-size: 5rem !important;
+}
+
+
+@media only screen and (max-width: 1131px)
+{
+    .success-content
+    {
+        width: 90%;
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .success-content
+    {
+        width: 95%;
+        padding: 1rem;
+       
+    }
+    .success-header
+    {
+        padding-top: 1rem;
+        font-size: 1.6rem;
+    }
+    .success-description
+    {
+        font-size: 1rem;
+    }
 }

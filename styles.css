@@ -101,7 +101,7 @@ ul a li
 #mobile-btn.active
 {
 
-    transform: translateX(-90px);
+   
 }
 
 .mobile-btn-container
@@ -116,8 +116,9 @@ ul a li
 
 #side-nav
 {
-    background-color: #3f3e3e;
+    background-color:  #7510F7;
     position: fixed;
+    width: 100vw;
     top: 0;
     right: 0;
     height: 100vh;
@@ -137,19 +138,33 @@ ul a li
 {
     padding: 0;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    width: 90%;
+    
 }
 
 #side-nav ul li 
 {
     padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
+
 
 #side-nav a
 {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
+}
+
+#side-nav a:hover
+{
+    color: #87ABB8;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 
@@ -405,7 +420,7 @@ ul a li
     background: #7510F7;
     color:  #FFFFFF;
     padding: 1rem 2rem;
-    border: none;
+    border: 1px solid #7510f7;
     border-radius: 6px;
 }
 
@@ -423,7 +438,7 @@ ul a li
 {
     min-height: 100%;
     position: relative;
-    z-index: 4;
+    z-index: 1;
     
 }
 
@@ -483,9 +498,9 @@ ul a li
 
 #close
 {
-    position: fixed;
-    right: 10px;
-    top: 5px;
+    position: absolute;
+    top: 1%;
+    right: 4%;
     cursor: pointer;
     color: #7510F7;
     font-size: 2rem;
@@ -791,12 +806,32 @@ textarea {
         grid-template-columns: 1fr;
     }
     .intro-origin{
-        padding: 2rem;
+        padding: .2rem;
+        font-size: 1.5rem;
+    }
+    .intro-quote
+    {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+    .intro
+    {
+        padding-top: 3rem;
     }
     #popupContact
     {
         width: 95%;
     }
+
+    #close
+{
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    cursor: pointer;
+    color: #7510F7;
+    font-size: 2rem;
+}
     
 
 
