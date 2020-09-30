@@ -17,7 +17,7 @@ body
 {
     min-height: 100vh;
     max-width: 100%;
-    overflow-x: hidden;
+    
     background-color: #FFFFFF;
    
     
@@ -39,6 +39,10 @@ p
     font-family: 'Open Sans', sans-serif;
 }
 
+.wrapper
+{
+    overflow-x: hidden;
+}
 
 /* Navigation Styles */
 #nav
