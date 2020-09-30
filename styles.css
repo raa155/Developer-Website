@@ -474,7 +474,7 @@ ul a li
     opacity: .99;
     top: 0;
     left: 0;
-    display: block;
+    display: none;
     position: fixed;
     background-color: #EDF0F4;
     overflow: auto;
@@ -623,6 +623,10 @@ textarea {
     {
         max-width: 90%;
     }
+    #popupContact
+    {
+        width: 70%;
+    }
 }
 @media only screen and (max-width: 1138px)
 {
@@ -721,6 +725,10 @@ textarea {
         width: 85%;
         
     }
+    #popupContact
+    {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 753px)
@@ -784,6 +792,10 @@ textarea {
     }
     .intro-origin{
         padding: 2rem;
+    }
+    #popupContact
+    {
+        width: 95%;
     }
     
 
