@@ -7,15 +7,14 @@ if(isset($_POST['submit']))
     $name = $_POST['name'];
     $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
-
+    $subject = 'Client Request from Website';
     // 
-    $mailTo = "romanabad_9@hotmail.com";
+    $mailTo = "romanengineers@outlook.com";
     $headers = "From: ".$mailFrom;
-    $txt = "You have received an email from ".$name.".\n\n".$message;
+    $txt = "Client Name: ".$name.".\n\n".$message;
 
-    mail($mailTo, $txt, $headers);
-    header("Location: index.php?mailsend");
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: success.html");
+        
 
 }
-
-?>
