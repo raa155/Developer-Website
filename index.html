@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="hover.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-    
    
 
 </head>
@@ -216,13 +215,38 @@
                         <h2>About me</h2>
                     </div>
                 </a>
-                <a class="contact-button hvr-trim" href="">
+                <a onclick="showContact()" class="contact-button hvr-trim">
                     <div class="contact-content">
                         <h3><em>Interested?</em></h3>
                         <h2>Contact Me</h2>
                     </div>
                 </a>
             </div>
+        </section>
+
+        <section class="contact-section" id="contact-form" >
+            <div id="popupContact">
+                <a onclick="hideContact()" id="close" ><i class="fa fa-close"></i></a>
+
+
+
+                <form  id="form" method="POST" name="myemailform" action="form-to-email.php">
+                    
+                    <h2 class="contact-header">Ready to get started? <p class="contact-description">I'll buy the coffee.</p></h2>
+                    <hr>
+
+                    <input id="name" name="name" placeholder="Name" type="text">
+                    <input id="email" name="mail" placeholder="Email" type="text">
+                    <textarea id="msg" name="message" placeholder="Message"></textarea>
+                    <button onclick="checkIfEmpty()" type="submit" name="submit" id="submit">Send</button>
+                </form>
+
+
+
+                
+            </div>
+
+
         </section>
 
 

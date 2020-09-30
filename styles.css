@@ -465,10 +465,102 @@ ul a li
 
 
 
+/* Popup Contact Styles */
 
+.contact-section
+{
+    width: 100%;
+    height: 100%;
+    opacity: .99;
+    top: 0;
+    left: 0;
+    display: block;
+    position: fixed;
+    background-color: #EDF0F4;
+    overflow: auto;
+    z-index: 5;
+}
 
+#close
+{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    color: #7510F7;
+    font-size: 2rem;
+}
 
+#popupContact
+{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    top: 15%;
+    font-family: inherit;
+}
+form
+{
+    max-width: 50%;
+    min-width: 100%;
+    padding: 2rem 2rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: inherit;
+    background-color: #fff;
 
+}
+input[type=text] {
+    width:100%;
+    padding:10px;
+    margin-top:30px;
+    border:1px solid #7510F7;
+    padding-left:40px;
+    font-size:16px;
+    font-family:inherit;
+}
+
+textarea {
+   
+    width:100%;
+    height:100px;
+    padding:10px;
+    resize:none;
+    margin-top:30px;
+    border:1px solid #7510F7;
+    padding-left:40px;
+    font-size:16px;
+    font-family:inherit;
+    margin-bottom:30px
+    }
+    
+
+#submit {
+        text-decoration:none;
+        width:100%;
+        text-align:center;
+        display:block;
+        background-color:#7510F7;
+        color:#fff;
+        border:1px solid #7510F7;
+        padding:10px 0;
+        font-size:20px;
+        cursor:pointer;
+        border-radius:5px
+ }
+
+ .contact-header
+ {
+     text-align: center !important;
+     font-family: 'Poppins', 'Open Sans';
+ }
+.contact-description
+{
+    color: #7510F7;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 

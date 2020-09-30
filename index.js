@@ -66,3 +66,26 @@ const scrollUp = document.getElementById('scroll-up');
 scrollUp.addEventListener('click', ()=>{
   scrollToTop();
 })
+
+
+// Contact form
+
+// Validating Empty Field
+function checkIfEmpty() {
+  if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+  alert("Fill All Fields !");
+  } else {
+  document.getElementById('form').submit();
+  alert("Form Submitted Successfully...");
+  }
+  }
+
+
+  //Function To Display Popup
+function showContact() {
+  document.getElementById('contact-form').style.display = "block";
+  }
+  //Function to Hide Popup
+  function hideContact(){
+  document.getElementById('contact-form').style.display = "none";
+  }
