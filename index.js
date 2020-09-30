@@ -12,6 +12,16 @@ btn.addEventListener('click', ()=>{
   
 })
 
+//arrow down functionality
+const arrow = document.getElementById('arrow');
+const intro = document.getElementById('intro-section');
+arrow.addEventListener('click', ()=>{
+  intro.scrollIntoView(
+    {
+      behavior: 'smooth'
+    }
+  );
+})
 
 
 

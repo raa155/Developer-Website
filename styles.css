@@ -334,7 +334,7 @@ ul a li
 
 .add-right-border
 {
-    border-right: 1px solid #dce1eb;
+    border-right: 1px solid #EDF0F4;
 }
 .skills-descriptor
 {
@@ -423,7 +423,7 @@ ul a li
 {
     min-height: 100%;
     position: relative;
-   
+    z-index: 4;
     
 }
 
@@ -594,6 +594,14 @@ ul a li
     #skills-section
     {
         grid-template-columns: 1fr;
+    }
+    .add-top-border
+    {
+        border-top: 1px solid #EDF0F4;
+    }
+    .add-right-border
+    {
+        border-right: none;
     }
 }
 
