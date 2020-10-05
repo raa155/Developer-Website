@@ -89,3 +89,5 @@ function showContact() {
   function hideContact(){
   document.getElementById('contact-form').style.display = "none";
   }
+
+  
