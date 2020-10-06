@@ -16,7 +16,7 @@
     
    <div  class="wrapper" >
        
-       <section id="nav">
+       <nav id="nav" class="nav">
             <div class="nav-links">
                 <div class="nav-brand">Roman Abad</div>
                 <ul id="menu">
@@ -39,7 +39,7 @@
                     <li><a onclick=(showContact())>Contact</a></li>
                 </ul>
             </div>
-        </section>
+          </nav>
 
 
         <section class="header">
@@ -63,15 +63,14 @@
         <section id="intro-section">
             <div class="intro">
                 <p class="intro-origin">Roman is a Front End Developer based in Bergen County, New Jersey.</p>
-                <p class="intro-quote">"He is undoubtedly, the coolest dude you'll ever meet." - Morgan Freeman</p>
+                <p class="intro-quote"><em>"He is undoubtedly, the coolest dude you'll ever meet."</em>  - Morgan Freeman</p>
             </div>
         </section>
 
 
         <section id="skills-section">
                 <div class="skill-category add-right-border">
-                    <img src="/img/frontend.svg" alt="">
-                    <br>
+                  <img src="/img/frontend.svg" class="frontend-img" alt="Designer graphic">
                     <br>
                     <h2>Front End</h2>
                     <br>
@@ -97,7 +96,7 @@
                     </ul>
                 </div>
                 <div class="skill-category add-right-border add-top-border">
-                    <img src="/img/designer.svg" alt="">
+                    <img src="/img/designer.svg" alt="Designer graphic">
                     <br>
                     <br>
                     <h2>Design</h2>
@@ -120,7 +119,7 @@
                     </ul>
                 </div>
                 <div class="skill-category add-top-border">
-                    <img src="/img/mentor.svg" alt="">
+                    <img src="/img/mentor.svg" alt="Backend Graphic">
                     <br>
                     <br>
                     <h2>Back End</h2>
@@ -167,13 +166,13 @@
                 <div class="project-description">
                     <h2>The Greek Village </h2>
                     <br>
-                    <h3>Background</h3>
+                    <h3 class="project-breakdown">Background</h3>
                     <p>The Greek Village is a popular authentic greek restaurant located in Northvale New Jersey.</p>
                     <br>
-                    <h3>Problem</h3>
+                    <h3 class="project-breakdown">Problem</h3>
                     <p>Figuring out what the most important features of a restaurant are and making them easy to access by all customers. </p>
                     <br>
-                    <h3>Solution</h3>
+                    <h3 class="project-breakdown">Solution</h3>
                     <p>Created three call to action buttons on the landing page. One for each: catering, menu, and takeout.</p>
                     <br>
 
@@ -193,13 +192,13 @@
                 <div class="project-description">
                     <h2>Wolfwearsheep Clothing </h2>
                     <br>
-                    <h3>Background</h3>
+                    <h3 class="project-breakdown">Background</h3>
                     <p>Wolfwearsheep is a brand made for artists by artists. This indie clothing company is fresh, sheik, and loud. One to keep an eye at. </p>
                     <br>
-                    <h3>Problem</h3>
+                    <h3 class="project-breakdown">Problem</h3>
                     <p>Creating a stylized website that embodied the art of the artist. Adding ecommerce functionality in order to expand global outreach.</p>
                     <br>
-                    <h3>Solution</h3>
+                    <h3 class="project-breakdown">Solution</h3>
                     <p>Worked with the artist one on one and developed a design that was true to his art. Incorporated ecommerce using snipcart.js and stripe as payment gateway.</p>
                     <br>
 
@@ -214,7 +213,7 @@
             <div class="about-wrapper">
                 <a class="about-button hvr-bounce-to-right" href="">
                     <div class="about-content">
-                        <h3><em>Get to know me?</em></h3>
+                        <h3><em>Who is Roman?</em></h3>
                         <h2>About me</h2>
                     </div>
                 </a>
@@ -241,7 +240,7 @@
                     <input id="name" name="name" placeholder="Name" type="text">
                     <input id="email" name="mail" placeholder="Email" type="text">
                     <textarea id="msg" name="message" placeholder="Message"></textarea>
-                    <button onclick="checkIfEmpty()" type="submit" name="submit" id="submit">Send</button>
+                    <button onclick="checkIfEmpty()" class="send-button" type="submit" name="submit" id="submit">Send</button>
                 </form>
 
 
@@ -276,6 +275,7 @@
    
 
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
                 /* ---- particles.js config ---- */
