@@ -32,7 +32,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-    color:#E94B3CFF;
+    color:#5883B7;
   }
   .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
     -webkit-transform: scaleX(1);
@@ -75,7 +75,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
-    color: #2D2926FF;
+    color:#FBDF91;
   }
   .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
     -webkit-transform: scaleX(1);

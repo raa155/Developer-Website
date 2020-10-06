@@ -128,7 +128,7 @@ ul a li
 
 #side-nav
 {
-    background-color:  #2D2926FF;
+    background-color:  #FBDF91;
     position: fixed;
     width: 100vw;
     top: 0;
@@ -188,7 +188,7 @@ ul a li
 .header
 {
     min-height:  100%;
-    background-color: #E94B3CFF;
+    background-color: #5883B7;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -319,7 +319,7 @@ ul a li
 #intro-section
 {
     height: 100%;
-    background-color: #2D2926FF;
+    background-color: #FBDF91;
 }
 
 .intro
@@ -376,7 +376,7 @@ ul a li
 }
 .skills-descriptor
 {
-    color: #E94B3CFF;
+    color: #5883B7;
 }
 
 .frontend-img
@@ -422,7 +422,7 @@ ul a li
     padding: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    color: #2D2926FF;
+    color: #FBDF91;
 }
 
 .project-description
@@ -432,7 +432,7 @@ ul a li
 
 .project-breakdown
 {
-    color: #E94B3CFF;
+    color: #5883B7;
 }
 
 .project-img-wrapper
@@ -450,19 +450,19 @@ ul a li
 }
 .project-button
 {
-    background: #2D2926FF;
+    background: #FBDF91;
     color:  #FFFFFF;
     padding: 1rem 2rem;
-    border: 1px solid #2D2926FF;
+    border: 1px solid #FBDF91;
     border-radius: 6px;
 }
 
 .project-button:hover
 {
     background:  #FFFFFF;
-    color:  #2D2926FF;
+    color:  #FBDF91;
     
-    border: 1px solid  #2D2926FF;
+    border: 1px solid  #FBDF91;
    
 }
 
@@ -486,8 +486,8 @@ ul a li
 
 .about-button
 {
-    background: #E94B3CFF;
-    color: #2D2926FF;
+    background: #5883B7;
+    color: #FBDF91;
     padding: 2rem;
     
 }
@@ -500,8 +500,8 @@ ul a li
 
 .contact-button
 {
-    background: #2D2926FF;
-    color: #E94B3CFF;
+    background: #FBDF91;
+    color: #5883B7;
     padding: 2rem;
 }
 
@@ -524,7 +524,7 @@ ul a li
     left: 0;
     display: none;
     position: fixed;
-    background-color: #2D2926FF;
+    background-color: rgba(88, 132, 184, 0.7);
     overflow: auto;
     z-index: 5;
 }
@@ -535,7 +535,7 @@ ul a li
     top: 1%;
     right: 4%;
     cursor: pointer;
-    color: #2D2926FF;
+    color: #FBDF91;
     font-size: 2rem;
 }
 
@@ -562,7 +562,7 @@ input[type=text] {
     width:100%;
     padding:10px;
     margin-top:30px;
-    border:1px solid #2D2926FF;
+    border:1px solid #5883B7;
     padding-left:40px;
     font-size:16px;
     font-family:inherit;
@@ -575,7 +575,7 @@ textarea {
     padding:10px;
     resize:none;
     margin-top:30px;
-    border:1px solid #2D2926FF;
+    border:1px solid #5883B7;
     padding-left:40px;
     font-size:16px;
     font-family:inherit;
@@ -588,9 +588,9 @@ textarea {
         width:100%;
         text-align:center;
         display:block;
-        background-color:#E94B3CFF;
+        background-color:#5883B7;
         color:#fff;
-        border:1px solid #E94B3CFF;
+        border:1px solid #5883B7;
         padding:10px 0;
         font-size:20px;
         cursor:pointer;
@@ -601,12 +601,12 @@ textarea {
  {
      text-align: center !important;
      font-family: 'Poppins', 'Open Sans';
-     color: #E94B3CFF;
+     color: #5883B7;
  }
 
 .contact-description
 {
-    color: #2D2926FF;
+    color: #FBDF91;
     font-size: 1rem;
     margin-bottom: 1rem;
     font-family: 'Open Sans', sans-serif;
@@ -851,7 +851,7 @@ textarea {
     }
     .intro
     {
-        padding-top: 3rem;
+        padding-top: 7rem;
     }
     #popupContact
     {
@@ -864,7 +864,7 @@ textarea {
     top: 1%;
     right: 4%;
     cursor: pointer;
-    color: #2D2926FF;
+    color: #FBDF91;
     font-size: 2rem;
 }
     
