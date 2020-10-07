@@ -41,6 +41,10 @@
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
   
+
+
+
+
   /* Bounce To Left */
   .hvr-bounce-to-left {
     display: inline-block;
@@ -75,7 +79,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
-    color:#FBDF91;
+    color:#8479B0;
   }
   .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
     -webkit-transform: scaleX(1);

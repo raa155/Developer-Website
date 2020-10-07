@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* General Styles */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Poppins', sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    max-width: 100%;
+    
+    background-color: #FFFFFF;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+}
+
+hr{
+    background-color: #EDF0F4;
+    height: 2px;
+    border: none;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper
+{
+    overflow-x: hidden;
+}
+
+/* Home Button Styles */
+.home-button
+{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.home-button button
+{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: .5rem;
+    transition: background-color 0.4s ease-out;
+}
+
+.home-button button:hover
+{
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: .5rem;
+}
+
+/* Intro Section Styles */
+#about-intro
+{
+    background-color: #8479B0;
+
+    min-height: 100%;
+}
+
+.intro-content
+{
+    color: white;
+    min-height: 400px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 2rem;
+    padding-top: 7rem;
+}
+
+.intro-name
+{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+/* Education Section Styles */
+
+#about-education
+{
+    background-color: #5883B7 ;
+   
+}
+.education-content
+{
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 400px;
+    padding: 6rem 0;
+}
+.education-content p 
+{
+    padding-bottom: 1rem;
+}
+.education-title
+{
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.activities
+{
+    text-indent: 2rem;
+}
+
+/* Experience Section Styles */
+
+#about-experience
+{
+    background-color: #218AAF;
+    color: white;
+}
+.experience-content
+{
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.experience-content h3
+{
+   
+    font-size: 1.6rem;
+}
+
+.job
+{
+    padding: 1rem 0;
+    line-height: 1.5rem;
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+

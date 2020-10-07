@@ -128,7 +128,7 @@ ul a li
 
 #side-nav
 {
-    background-color:  #FBDF91;
+    background-color:  #8479B0;
     position: fixed;
     width: 100vw;
     top: 0;
@@ -319,7 +319,7 @@ ul a li
 #intro-section
 {
     height: 100%;
-    background-color: #FBDF91;
+    background-color: #8479B0;
 }
 
 .intro
@@ -376,7 +376,7 @@ ul a li
 }
 .skills-descriptor
 {
-    color: #5883B7;
+    color: #486a94;
 }
 
 .frontend-img
@@ -422,7 +422,7 @@ ul a li
     padding: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    color: #FBDF91;
+    color: #8479B0;
 }
 
 .project-description
@@ -432,7 +432,7 @@ ul a li
 
 .project-breakdown
 {
-    color: #5883B7;
+    color: inherit;
 }
 
 .project-img-wrapper
@@ -450,19 +450,21 @@ ul a li
 }
 .project-button
 {
-    background: #FBDF91;
+    background: #8479B0;
     color:  #FFFFFF;
     padding: 1rem 2rem;
-    border: 1px solid #FBDF91;
-    border-radius: 6px;
+    border: 1px solid #8479B0;
+    
 }
 
 .project-button:hover
 {
-    background:  #FFFFFF;
-    color:  #FBDF91;
     
-    border: 1px solid  #FBDF91;
+    color:  #8479B0;
+    border: 1px solid #8479B0;
+    
+
+  
    
 }
 
@@ -487,7 +489,7 @@ ul a li
 .about-button
 {
     background: #5883B7;
-    color: #FBDF91;
+    color: white;
     padding: 2rem;
     
 }
@@ -500,8 +502,8 @@ ul a li
 
 .contact-button
 {
-    background: #FBDF91;
-    color: #5883B7;
+    background: #8479B0;
+    color: white;
     padding: 2rem;
 }
 
@@ -535,7 +537,7 @@ ul a li
     top: 1%;
     right: 4%;
     cursor: pointer;
-    color: #FBDF91;
+    color: #8479B0;
     font-size: 2rem;
 }
 
@@ -606,7 +608,7 @@ textarea {
 
 .contact-description
 {
-    color: #FBDF91;
+    color: #8479B0;
     font-size: 1rem;
     margin-bottom: 1rem;
     font-family: 'Open Sans', sans-serif;
@@ -868,7 +870,7 @@ textarea {
     top: 1%;
     right: 4%;
     cursor: pointer;
-    color: #FBDF91;
+    color: #8479B0;
     font-size: 2rem;
 }
     

@@ -96,8 +96,8 @@ function showContact() {
 
 
 
-
+// function to change color of nav when scroll exceeds 10 px
   window.onscroll = () => {
     const nav = document.querySelector('#nav');
-    if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+    if(this.scrollY <= 700) nav.className = ''; else nav.className = 'scroll';
   };
