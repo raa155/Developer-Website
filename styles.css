@@ -246,7 +246,7 @@ ul a li
     position: relative;
     top: 15%;
     left: 48%;
-    z-index: 0;
+    z-index: 2;
 }
 
 .arrow
