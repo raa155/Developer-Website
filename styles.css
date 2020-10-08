@@ -209,14 +209,10 @@ ul a li
 
 .header-content h1{
     font-family: 'Permanent Marker', cursive;
-    color:black;
+    color: white;
     font-size: 5rem;
-    border: 4px solid black;
-    border-radius: 10px;
     width: 40%;
     margin: auto;
-    background: #FFFFFF;
-    
 }
 
 .header-content p{
